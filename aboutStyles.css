@@ -19,7 +19,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 60px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,4 +167,93 @@ html {
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+
+/* Main page */
+
+.main {
+    margin: 2rem 10rem;
+}
+
+.accordion {
+    background-color: transparent;
+    color: #ddd;
+    cursor: pointer;
+    padding: 1rem;
+    width: 60%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgba(1, 1, 1, 0.5);
+    display: none;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    color: #ddd;
+}
+
+/* Footer */
+
+.footer__container {
+    padding: 2rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icon--link {
+    color: #fff;
+    font-size: 28px;
+}
+
+.social__media {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.social__media--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+
+.social__logo {
+    color: #ddd;
+    justify-self: flex-start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.image__credits a{
+    color: #777;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.8rem;
 }
