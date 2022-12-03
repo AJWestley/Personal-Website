@@ -237,6 +237,11 @@ html {
     cursor: pointer;
 }
 
+.work__card a {
+    text-decoration: none;
+    color: #ddd;
+}
+
 .work__card button:hover {
     transform: scale(1.05);
     transition: 0.2s ease-in;
