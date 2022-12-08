@@ -182,6 +182,10 @@ html {
     padding: 0 50px;
 }
 
+.main__content {
+    margin-left: 1rem;
+}
+
 .main__content h1 {
     padding-bottom: 1rem;
     font-size: 5rem;
@@ -233,7 +237,7 @@ html {
 }
 
 .main__img--container img {
-    max-width: 400px;
+    max-width: 500px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -252,12 +256,12 @@ html {
     .main__content {
         text-align: center;
         margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     .main__content h1 {
-        font-size: 2.5rem;
-        padding: 1rem;
-        margin-top: 1rem;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
     }
 
     .main__content p {
@@ -323,7 +327,7 @@ html {
 
 @media screen and (max-width: 1000px) {
     .footer__container {
-        margin-top: 5rem;
+        margin-top: 11rem;
         margin-left: 3rem;
     }
 
@@ -345,26 +349,26 @@ html {
     }
 }
 
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 963px) {
     .footer__container {
-        margin-top: 6rem;
+        margin-top: 12rem;
     }
 }
 
-@media screen and (max-width: 688px) {
+@media screen and (max-width: 792px) {
     .footer__container {
-        margin-top: 7rem;
+        margin-top: 13rem;
     }
 }
 
-@media screen and (max-width: 615.5px) {
+@media screen and (max-width: 705px) {
     .footer__container {
-        margin-top: 8rem;
+        margin-top: 14rem;
     }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 631.5px) {
     .footer__container {
-        margin-top: 9rem;
+        margin-top: 15rem;
     }
 }
