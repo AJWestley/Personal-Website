@@ -2,11 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Arvo', sans-serif;
+    font-family: OldSchool, sans-serif;
+}
+
+@font-face {
+    font-family: OldSchool;
+    src: url(fonts/connection.otf);
+}
+
+@font-face {
+    font-family: goblin;
+    src: url(fonts/Goblin.ttf);
 }
 
 html { 
-    background: url(images/homebg.jpg) no-repeat center center fixed; 
+    background: url(images/nightsky.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,12 +24,12 @@ html {
 }
 
 .navbar {
-    background: url(images/homebg.jpg) no-repeat center center fixed; 
+    background: url(images/nightsky.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100px;
+    height: 104px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,18 +51,12 @@ html {
 }
 
 #navbar__logo {
-    background-color: #ddd;
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: default;
+    font-family: goblin;
+    margin-top: 0.8rem;
+    color: #ddd;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .navbar__menu {
@@ -73,15 +77,17 @@ html {
     justify-content: center;
     text-decoration: none;
     padding: 1rem 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0;
     margin-left: 2rem;
     height: 100%;
-    background: #222831;
-    border-radius: 20px;
+    background: #1c145c;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .navbar__links:hover {
-    background: #f05454;
+    background: #9643ab;
     transition: 0.2s ease-in;
 }
 
@@ -184,6 +190,7 @@ html {
     background-size: 100%;
     margin-bottom: 1rem;
     font-size: 2.5rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .work__container {
@@ -196,19 +203,30 @@ html {
     margin: 1rem;
     height: 480px;
     width: 400px;
-    border-radius: 4px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/writing.jpg');
+    border-radius: 3px;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0.4);
     background-size: cover;
     position: relative;
     color: #fff;
 }
 
-.work__card:nth-child(1) {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/programming.jpg');
+.work__card img {
+    position: absolute;
+    top: 50px;
+    left: 90px;
 }
 
-.work__card:nth-child(2) {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/physics.jpg');
+.work__card:nth-child(1) img {
+    top: 50px;
+    left: 80px;
+}
+
+.work__card:nth-child(2) img {
+    top: 50px;
+    left: 80px;
 }
 
 .work h2 {
@@ -226,10 +244,11 @@ html {
 .work__card button {
     color: #ddd;
     padding: 10px 20px;
-    border: none;
     outline: none;
-    border-radius: 4px;
-    background: #f05454;
+    background: #1c145c;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 3px;
     position: absolute;
     top: 410px;
     left: 30px;
@@ -243,7 +262,7 @@ html {
 }
 
 .work__card button:hover {
-    transform: scale(1.05);
+    border-color: #9643ab;
     transition: 0.2s ease-in;
 }
 
@@ -272,7 +291,7 @@ html {
 
 .social__media--wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 90%;
     max-width: 1000px;

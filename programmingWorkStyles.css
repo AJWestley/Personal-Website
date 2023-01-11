@@ -2,11 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Arvo', sans-serif;
+    font-family: OldSchool, sans-serif;
+}
+
+@font-face {
+    font-family: OldSchool;
+    src: url(fonts/connection.otf);
+}
+
+@font-face {
+    font-family: goblin;
+    src: url(fonts/Goblin.ttf);
 }
 
 html { 
-    background: url(images/homebg.jpg) no-repeat center center fixed; 
+    background: url(images/nightsky.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -14,12 +24,12 @@ html {
 }
 
 .navbar {
-    background: url(images/homebg.jpg) no-repeat center center fixed; 
+    background: url(images/nightsky.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100px;
+    height: 104px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,18 +51,12 @@ html {
 }
 
 #navbar__logo {
-    background-color: #ddd;
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: default;
+    font-family: goblin;
+    margin-top: 0.8rem;
+    color: #ddd;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .navbar__menu {
@@ -73,15 +77,17 @@ html {
     justify-content: center;
     text-decoration: none;
     padding: 1rem 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0;
     margin-left: 2rem;
     height: 100%;
-    background: #222831;
-    border-radius: 20px;
+    background: #1c145c;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .navbar__links:hover {
-    background: #f05454;
+    background: #9643ab;
     transition: 0.2s ease-in;
 }
 
@@ -197,6 +203,7 @@ html {
     font-size: 2rem;
     color: #ddd;
     background-size: 100%;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .main__content p {
@@ -205,14 +212,19 @@ html {
     background-size: 100%;
     padding: 1rem;
     font-size: 1rem;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 3px;
 }
 
 .main__btn {
     font-size: 1rem;
     background-color: rgba(1, 1, 1, 0.5);
     padding: 6px 20px;
-    border: 5px 5px;
+    background: #140c3d;
     border-color: #ddd;
+    border-style: solid;
+    border-width: 3px;
     color: #ddd;
     margin-top: 1rem;
     margin-right: 2rem;
@@ -229,7 +241,7 @@ html {
 }
 
 .main__btn:hover {
-    border-color: #f05454;
+    border-color: #9643ab;
     transition: all 0.3s ease;
 }
 
@@ -297,7 +309,7 @@ html {
 
 .social__media--wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 90%;
     max-width: 1000px;
