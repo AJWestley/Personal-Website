@@ -53,7 +53,7 @@ html {
 #navbar__logo {
     font-family: goblin;
     margin-top: 0.8rem;
-    color: #ddd;
+    color: #eee;
     text-decoration: none;
     font-size: 2.5rem;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
@@ -71,7 +71,7 @@ html {
 }
 
 .navbar__links {
-    color: #ddd;
+    color: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@ html {
     margin-left: 2rem;
     height: 100%;
     background: #1c145c;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
 }
@@ -133,7 +133,7 @@ html {
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #ddd;
+        background: #eee;
     }
 
     .navbar__item {
@@ -201,18 +201,18 @@ html {
 .main__content h1 {
     padding-bottom: 1rem;
     font-size: 2rem;
-    color: #ddd;
+    color: #eee;
     background-size: 100%;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .main__content p {
-    color: #ddd;
+    color: #eee;
     background-color: rgba(1, 1, 1, 0.5);
     background-size: 100%;
     padding: 1rem;
     font-size: 1rem;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
 }
@@ -222,10 +222,10 @@ html {
     background-color: rgba(1, 1, 1, 0.5);
     padding: 6px 20px;
     background: #140c3d;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
-    color: #ddd;
+    color: #eee;
     margin-top: 1rem;
     margin-right: 2rem;
     cursor: pointer;
@@ -236,7 +236,7 @@ html {
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #ddd;
+    color: #eee;
     text-decoration: none;
 }
 
@@ -252,7 +252,7 @@ html {
 .main__img--container img {
     max-width: 350px;
     background: #140c3d;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
     padding: 5px;
@@ -343,7 +343,7 @@ html {
 }
 
 .social__logo {
-    color: #ddd;
+    color: #eee;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;

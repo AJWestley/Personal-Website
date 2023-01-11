@@ -53,7 +53,7 @@ html {
 #navbar__logo {
     font-family: goblin;
     margin-top: 0.8rem;
-    color: #ddd;
+    color: #eee;
     text-decoration: none;
     font-size: 2.5rem;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
@@ -71,7 +71,7 @@ html {
 }
 
 .navbar__links {
-    color: #ddd;
+    color: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@ html {
     margin-left: 2rem;
     height: 100%;
     background: #1c145c;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
 }
@@ -133,7 +133,7 @@ html {
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #ddd;
+        background: #eee;
     }
 
     .navbar__item {
@@ -186,7 +186,7 @@ html {
 .work h1 {
     padding-bottom: 0px;
     padding-top: 20px;
-    color: #ddd;
+    color: #eee;
     background-size: 100%;
     margin-bottom: 1rem;
     font-size: 2.5rem;
@@ -204,7 +204,7 @@ html {
     height: 480px;
     width: 400px;
     border-radius: 3px;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
     background-color: rgba(0,0,0,0.4);
@@ -242,11 +242,11 @@ html {
 }
 
 .work__card button {
-    color: #ddd;
+    color: #eee;
     padding: 10px 20px;
     outline: none;
     background: #1c145c;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
     position: absolute;
@@ -258,7 +258,7 @@ html {
 
 .work__card a {
     text-decoration: none;
-    color: #ddd;
+    color: #eee;
 }
 
 .work__card button:hover {
@@ -305,7 +305,7 @@ html {
 }
 
 .social__logo {
-    color: #ddd;
+    color: #eee;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;

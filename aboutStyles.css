@@ -53,7 +53,7 @@ html {
 #navbar__logo {
     font-family: goblin;
     margin-top: 0.8rem;
-    color: #ddd;
+    color: #eee;
     text-decoration: none;
     font-size: 2.5rem;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
@@ -71,7 +71,7 @@ html {
 }
 
 .navbar__links {
-    color: #ddd;
+    color: #eee;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +81,7 @@ html {
     margin-left: 2rem;
     height: 100%;
     background: #1c145c;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
 }
@@ -133,7 +133,7 @@ html {
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #ddd;
+        background: #eee;
     }
 
     .navbar__item {
@@ -183,7 +183,7 @@ html {
 }
 
 .container h1 {
-    color: #ddd;
+    color: #eee;
     margin-bottom: 2rem;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
@@ -191,14 +191,14 @@ html {
 button.accordion {
     width: 100%;
     background-color: #140c3d;
-    border-color: #ddd;
+    border-color: #eee;
     border-style: solid;
     border-width: 3px;
     outline: none;
     text-align: left;
     padding: 15px 20px;
     font-size: 18px;
-    color: #ddd;
+    color: #eee;
     cursor: pointer;
     transition: background-color 0.2s linear;
     margin-bottom: 1rem;
@@ -224,7 +224,7 @@ button.accordion:hover {
   
 .accordion-content {
     background-color: rgba(1, 1, 1, 0.5);
-    color: #ddd;
+    color: #eee;
     padding: 0;
     max-height: 0;
     overflow: hidden;
@@ -273,7 +273,7 @@ button.accordion:hover {
 }
 
 .social__logo {
-    color: #ddd;
+    color: #eee;
     justify-self: flex-start;
     margin-left: 20px;
     cursor: pointer;
