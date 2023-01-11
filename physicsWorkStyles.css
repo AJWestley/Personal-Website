@@ -29,7 +29,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100px;
+    height: 104px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,72 +175,8 @@ html {
     }
 }
 
-/* Main page */
-
-.container {
-    width: 75%;
-    margin: 50px auto;
-}
-
-.container h1 {
-    color: #ddd;
-    margin-bottom: 2rem;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-}
-  
-button.accordion {
-    width: 100%;
-    background-color: #140c3d;
-    border-color: #ddd;
-    border-style: solid;
-    border-width: 3px;
-    outline: none;
-    text-align: left;
-    padding: 15px 20px;
-    font-size: 18px;
-    color: #ddd;
-    cursor: pointer;
-    transition: background-color 0.2s linear;
-    margin-bottom: 1rem;
-}
-  
-button.accordion:after {
-    font-family: FontAwesome;
-    content: "\f150";
-    font-family: "fontawesome";
-    font-size: 18px;
-    float: right;
-    margin-bottom: 0;
-}
-  
-button.accordion.is-open:after {
-    content: "\f151";
-}
-  
-button.accordion:hover {
-    border-color: #9643ab;
-    transition: 0.2s ease-out;
-}
-  
-.accordion-content {
-    background-color: rgba(1, 1, 1, 0.5);
-    color: #ddd;
-    padding: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
-    margin-bottom: 1rem;
-    
-}
-
-.accordion-content p {
-    padding: 2rem;
-}
-
-/* Footer */
-
 .footer__container {
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,22 +220,37 @@ button.accordion:hover {
     margin-bottom: 8px;
 }
 
-.image__credits a{
-    color: #777;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 0.8rem;
+/*Temporary Main*/
+
+.main {
+    color: #ddd;
+    margin: 10rem;
 }
 
-@media screen and (max-width: 1000px) {
+.main h1 {
+    font-size: 6rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.main h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+/*--------------*/
+
+@media screen and (max-width: 800px) {
     .footer__container {
-        margin-top: 1rem;
+        margin-top: 11rem;
         margin-left: 3rem;
     }
 
     .social__media--wrap {
         flex-direction: column-reverse;
+    }
+
+    .social__icons {
+        margin-top: 2rem;
     }
 }

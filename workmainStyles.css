@@ -29,7 +29,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 104px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,7 +91,7 @@ html {
     transition: 0.2s ease-in;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1050px) {
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -216,7 +216,7 @@ html {
 .work__card img {
     position: absolute;
     top: 50px;
-    left: 90px;
+    left: 100px;
 }
 
 .work__card:nth-child(1) img {
@@ -232,13 +232,13 @@ html {
 .work h2 {
     position: absolute;
     top: 320px;
-    left: 30px;
+    left: 10px;
 }
 
 .work__card p {
     position: absolute;
     top: 370px;
-    left: 30px;
+    left: 10px;
 }
 
 .work__card button {
@@ -251,7 +251,7 @@ html {
     border-width: 3px;
     position: absolute;
     top: 410px;
-    left: 30px;
+    left: 120px;
     font-size: 1rem;
     cursor: pointer;
 }
@@ -329,15 +329,6 @@ html {
     .footer__container {
         margin-top: 30rem;
         margin-left: 3rem;
-    }
-
-    .image__credits {
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
-
-    .footer__link--wrapper {
-        flex-direction: column-reverse;
     }
 
     .social__media--wrap {
