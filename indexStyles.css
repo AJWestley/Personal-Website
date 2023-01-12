@@ -55,7 +55,7 @@ html {
     margin-top: 0.8rem;
     color: #eee;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
@@ -95,7 +95,7 @@ html {
     .navbar__container {
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 100px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -252,15 +252,16 @@ html {
 
 .main__img--container .img-top {
     display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 .main__img--container .img-text {
     display: none;
-        position: absolute;
-        top: 2rem;
-        right: 0.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 0.5rem;
 }
 
 .main__img--container:hover .img-top{
@@ -298,6 +299,20 @@ html {
         font-size: 1rem;
     }
 
+    .main__img--container {
+        align-self: center;
+        max-width: 300px;
+        position: relative;
+        margin-left: 5rem;
+    }
+    
+    .main__img--container img {
+        width: 60%;
+    }
+
+    .main__img--container .img-text {
+        scale: 60%;
+    }
 }
 
 .footer__container {
