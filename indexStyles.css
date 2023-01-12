@@ -315,6 +315,7 @@ html {
     .main__content {
         text-align: center;
         margin-top: 1rem;
+        margin-left: 0;
     }
 
     .main__content h1 {
