@@ -412,8 +412,6 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 .social__icon--link {
@@ -424,6 +422,7 @@ html {
 .social__media {
     max-width: 1000px;
     width: 100%;
+    margin-top: 3rem;
 }
 
 .social__media--wrap {
@@ -432,7 +431,6 @@ html {
     align-items: center;
     width: 90%;
     max-width: 1000px;
-    margin-left: 3rem;
 }
 
 .social__icons {
@@ -445,7 +443,7 @@ html {
 .social__logo {
     color: #eee;
     justify-self: flex-start;
-    margin-left: 80px;
+    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -454,13 +452,24 @@ html {
     margin-bottom: 8px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1313px) {
     .footer__container {
-        margin-top: 4rem;
-        margin-right: 3rem;
+        margin-top: 30rem;
+        margin-left: 3rem;
+    }
+
+    .social__media--wrap {
+        flex-direction: column-reverse;
     }
 
     .social__icons {
         margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .footer__container {
+        margin: 1rem;
+        margin-left: 3rem;
     }
 }

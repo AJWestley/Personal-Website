@@ -326,7 +326,7 @@ a {
 
 @media screen and (max-width: 1000px) {
     .footer__container {
-        margin-top: 1rem;
+        margin: 1rem;
         margin-left: 3rem;
     }
 
