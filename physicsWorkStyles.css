@@ -95,7 +95,7 @@ html {
     .navbar__container {
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 100px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -175,6 +175,54 @@ html {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #navbar__logo {
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 245px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 0.9rem;
+    }
+}
+
+/*Temporary Main*/
+
+.main {
+    color: #eee;
+    margin: 10rem;
+}
+
+.main h1 {
+    font-size: 6rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.main h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+/*--------------*/
+
 .footer__container {
     padding: 0 1rem 1rem 1rem;
     display: flex;
@@ -219,26 +267,6 @@ html {
     align-items: center;
     margin-bottom: 8px;
 }
-
-/*Temporary Main*/
-
-.main {
-    color: #eee;
-    margin: 10rem;
-}
-
-.main h1 {
-    font-size: 6rem;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-}
-
-.main h2 {
-    margin-top: 1rem;
-    font-size: 2rem;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-}
-
-/*--------------*/
 
 @media screen and (max-width: 800px) {
     .footer__container {

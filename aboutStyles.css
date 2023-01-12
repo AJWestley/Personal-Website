@@ -29,7 +29,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100px;
+    height: 104px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@ html {
     .navbar__container {
         display: flex;
         justify-content: space-between;
-        height: 80px;
+        height: 100px;
         z-index: 1;
         width: 100%;
         max-width: 1300px;
@@ -172,6 +172,34 @@ html {
 
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #navbar__logo {
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 245px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 0.9rem;
     }
 }
 
