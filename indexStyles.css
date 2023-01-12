@@ -175,6 +175,34 @@ html {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #navbar__logo {
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 245px) {
+    #navbar__logo {
+        margin-top: 30px;
+        font-size: 0.9rem;
+    }
+}
+
 .main__container {
     display: grid;
     grid-template-columns: 0.8fr 1fr;
