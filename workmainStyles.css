@@ -446,6 +446,7 @@ html {
 
 @media screen and (max-width: 880px) {
     .footer__container {
-        margin-top: 62rem;
+        margin: 1rem;
+        margin-left: 3rem;
     }
 }
