@@ -217,7 +217,7 @@ html {
     padding-top: 20px;
     color: #eee;
     background-size: 100%;
-    margin-bottom: 1rem;
+    margin: 2rem;
     font-size: 2.5rem;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
@@ -364,6 +364,44 @@ html {
 
 #tussen {
     max-width: 400px;
+}
+
+@media screen and (max-width: 790px) {
+    .main h1 {
+        font-size: 3.5rem
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .main h1 {
+        font-size: 3rem
+    }
+
+    #timeAndSpace {
+        max-height: none;
+    }
+
+    #nerens {
+        max-height: none;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main h1 {
+        font-size: 2.5rem
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main h1 {
+        font-size: 2rem
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .main h1 {
+        font-size: 1.8rem
+    }
 }
 
 /*--------------*/
