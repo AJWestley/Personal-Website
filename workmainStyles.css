@@ -299,6 +299,14 @@ html {
     transition: 0.2s ease-in;
 }
 
+@media screen and (max-width: 1050px) {
+    .work h1 {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+}
+
 .footer__container {
     padding: 0 1rem 1rem 1rem;
     display: flex;
