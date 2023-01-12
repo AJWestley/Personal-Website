@@ -181,10 +181,10 @@ html {
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
+    min-height: 90vh;
     padding: 0 50px;
 }
 
@@ -281,13 +281,10 @@ html {
         width: 100%;
         margin: 0 auto;
         margin-top: 1rem;
-        height: 90vh;
-        padding-bottom: 80px;
     }
 
     .main__content {
         text-align: center;
-        margin-bottom: 1rem;
         margin-top: 1rem;
     }
 
@@ -309,6 +306,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .social__icon--link {
@@ -350,7 +348,6 @@ html {
 
 @media screen and (max-width: 800px) {
     .footer__container {
-        margin-top: 11rem;
         margin-left: 3rem;
     }
 

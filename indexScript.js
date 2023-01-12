@@ -14,7 +14,7 @@ accordionBtns.forEach((accordion) => {
       content.style.maxHeight = null;
     } else {
       //if the accordion is currently closed
-      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.maxHeight = "none";
       console.log(content.style.maxHeight);
     }
   };

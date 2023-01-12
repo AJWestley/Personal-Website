@@ -223,7 +223,7 @@ button.accordion:hover {
 }
   
 .accordion-content {
-    background-color: rgba(1, 1, 1, 0.5);
+    background-color: rgba(5, 5, 5, 0.5);
     color: #eee;
     padding: 0;
     max-height: 0;
@@ -239,6 +239,14 @@ button.accordion:hover {
 
 a {
     color: #ddd;
+}
+
+.list {
+    padding-bottom: 2rem;
+}
+
+.list p {
+    padding-bottom: 0;
 }
 
 /* Footer */
