@@ -429,15 +429,6 @@ html {
     margin-bottom: 8px;
 }
 
-.image__credits a{
-    color: #777;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 0.8rem;
-}
-
 @media screen and (max-width: 1313px) {
     .footer__container {
         margin-top: 30rem;

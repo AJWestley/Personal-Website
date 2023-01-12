@@ -298,15 +298,12 @@ html {
 
 @media screen and (max-width: 800px) {
     .footer__container {
+        margin: 1rem;
         margin-top: 11rem;
         margin-left: 3rem;
     }
 
     .social__media--wrap {
         flex-direction: column-reverse;
-    }
-
-    .social__icons {
-        margin-top: 2rem;
     }
 }

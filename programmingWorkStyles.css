@@ -407,7 +407,7 @@ html {
 
 @media screen and (max-width: 1000px) {
     .footer__container {
-        margin-top: 0;
+        margin: 1rem;
         margin-left: 3rem;
     }
 
