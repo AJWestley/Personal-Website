@@ -40,6 +40,25 @@
     <!-- Main -->
     <div class="main">
         <h1>This is technically creative writing</h1>
+
+        <div class="main__container">
+            <div class="main__img--container">
+                <img src="images/programming/GasSim.png" alt="" id="resize">
+            </div>
+            <div class="main__content">
+                <h1>Ideal and Non-Ideal Gas Simulation</h1>
+                
+                <p>
+                    A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. 
+                    For collision detection, I made use of a spatial hash map, which allows the program to handle upwards 
+                    of 2500 particles without any significant performance drop.
+                </p>
+                <button class="main__btn">
+                    <a href="https://github.com/AJWestley/Gas-Sim">See Code</a>
+                </button>
+            </div>
+        </div>
+
         <div class="main__container">
             <div class="main__img--container">
                 <img src="images/programming/gravity.png" alt="" id="resize">
@@ -49,7 +68,8 @@
                 
                 <p>
                     A simple Newtonian gravity simulation written in Python which uses point masses to approximate different 
-                    gravitational interactions.
+                    gravitational interactions. There are a few prebuilt systems in the code, such as our solar system and a 
+                    binary star system with circumbinary planets.
                 </p>
                 <button class="main__btn">
                     <a href="https://github.com/AJWestley/Gravity-Planetary-Orbit-Sim">See Code</a>
@@ -67,7 +87,7 @@
                 <p>
                     An app written in Java which allows the user to place a start point, end point and obstacles 
                     on a grid. The shortest path between the two points around any obstacles is then found and 
-                    the process is shown visually to the user.
+                    the process is visualized.
                 </p>
                 <button class="main__btn">
                     <a href="https://github.com/AJWestley/Pathfinder">See Code</a>
@@ -85,6 +105,7 @@
                 <p>
                     A sudoku game written in Java using the LibGDX framework. The game doesn't have preloaded 
                     puzzles, but rather generates a random new puzzle depending on the selected difficulty. 
+                    This is done with recursive backtracking.
                 </p>
                 <button class="main__btn">
                     <a href="https://github.com/AJWestley/Sudoku">See Code</a>
@@ -119,7 +140,7 @@
                     A music bot I wrote for a personal Discord server. You enter a song you want and the bot will 
                     join your channel and play the audio from the most related YouTube video. Songs can be queued, 
                     skipped, paused, resumed and stopped entirely. There are a few other fun commands attatched to 
-                    the bot as well.
+                    the bot as well. Sadly, due to some of Replit's software migrations, the bot is no longer running.
                 </p>
                 <button class="main__btn">
                     <a href="https://replit.com/@AJWestley/Clarence#music.py">See Code</a>
