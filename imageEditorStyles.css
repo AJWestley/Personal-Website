@@ -282,13 +282,14 @@ input[type="file"] {
   max-height: 800px;
   width: 80%;
   object-fit: contain;
-  background: #9643ab;
+  background: #eee;
   border-color: #eee;
   border-style: solid;
   border-width: 3px;
 }
 
 .filters {
+  display: none;
   margin: 1.5rem;
 }
 

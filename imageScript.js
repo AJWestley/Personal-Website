@@ -5,6 +5,7 @@ const menu = document.querySelector("#mobile-menu");
 const menuLinks = document.querySelector(".navbar__menu");
 const brightnessSlider = document.getElementById("brightness-slider");
 const contrastSlider = document.getElementById("contrast-slider");
+const hueSlider = document.getElementById("hue-slider");
 
 menu.addEventListener("click", () => {
   menu.classList.toggle("is-active");
@@ -26,8 +27,9 @@ function upload(event) {
   // Show the image editor controls and hide the help text
   document.querySelector(".save-reset").style.display = "flex";
   canvas.style.opacity = 1;
-  //document.querySelector(".image-controls").style.display = "block";
+  document.querySelector(".filters").style.display = "block";
   //document.querySelector(".preset-filters").style.display = "block";
+  reset();
 }
 
 function save() {
@@ -42,12 +44,14 @@ function save() {
 function reset() {
   brightnessSlider.value = 100;
   contrastSlider.value = 100;
+  hueSlider.value = 0;
   apply();
 }
 
 function apply() {
   let filter = `brightness(${brightnessSlider.value}%) 
-                contrast(${contrastSlider.value}%)`;
+                contrast(${contrastSlider.value}%) 
+                hue-rotate(${hueSlider.value}deg)`;
 
   context.filter = filter;
   context.drawImage(image, 0, 0);
