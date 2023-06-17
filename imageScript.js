@@ -6,6 +6,9 @@ const menuLinks = document.querySelector(".navbar__menu");
 const brightnessSlider = document.getElementById("brightness-slider");
 const contrastSlider = document.getElementById("contrast-slider");
 const hueSlider = document.getElementById("hue-slider");
+const greySlider = document.getElementById("greyscale-slider");
+const sepiaSlider = document.getElementById("sepia-slider");
+const blurSlider = document.getElementById("blur-slider");
 
 menu.addEventListener("click", () => {
   menu.classList.toggle("is-active");
@@ -28,7 +31,6 @@ function upload(event) {
   document.querySelector(".save-reset").style.display = "flex";
   canvas.style.opacity = 1;
   document.querySelector(".filters").style.display = "block";
-  //document.querySelector(".preset-filters").style.display = "block";
   reset();
 }
 
@@ -45,13 +47,19 @@ function reset() {
   brightnessSlider.value = 100;
   contrastSlider.value = 100;
   hueSlider.value = 0;
+  greySlider.value = 0;
+  sepiaSlider.value = 0;
+  blurSlider.value = 0;
   apply();
 }
 
 function apply() {
   let filter = `brightness(${brightnessSlider.value}%) 
                 contrast(${contrastSlider.value}%) 
-                hue-rotate(${hueSlider.value}deg)`;
+                hue-rotate(${hueSlider.value}deg) 
+                grayscale(${greySlider.value}%) 
+                sepia(${sepiaSlider.value}%) 
+                blur(${blurSlider.value}px)`;
 
   context.filter = filter;
   context.drawImage(image, 0, 0);

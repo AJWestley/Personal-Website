@@ -294,15 +294,22 @@ input[type="file"] {
 }
 
 .filter-container {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
 }
 
 .filter-slider {
-  margin: 1rem;
+  justify-content: space-between;
+  margin: 0.5rem;
   color: #eee;
   background-size: 100%;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000, -1px 0px 0 #000, 0px -1px 0 #000;
+}
+
+.filter-slider span {
+  display: flex;
+  flex-direction: column;
 }
 
 .upload-btn input {
