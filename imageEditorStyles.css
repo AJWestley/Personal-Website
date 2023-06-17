@@ -294,7 +294,7 @@ input[type="file"] {
 }
 
 .filter-container {
-  display: flex;
+  display: flexbox;
 }
 
 .filter-slider {
