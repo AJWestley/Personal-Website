@@ -19,5 +19,3 @@ Here, the user can upload an image and apply some minor edits, then download the
 ### Future Features
 - Image inversion
 - Preset filters
-- Image cropping and flipping
-- Different windows
