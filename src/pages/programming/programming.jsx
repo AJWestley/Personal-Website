@@ -2,7 +2,7 @@ import { createProjectCards } from "../../components/generators"
 import { NavBar } from '../../components/Nav';
 import { Footer } from '../../components/Footer';
 import content from './programming.json'
-import './programming.css'
+import '../../styles/programming.css'
 
 export function ProgrammingWork() {
     return (

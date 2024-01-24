@@ -4,7 +4,7 @@ import mouthClosed from '/images/me/mouthClosed.png'
 import mouthOpen from '/images/me/mouthOpen.png'
 import greeting from '/images/me/greeting.png'
 import content from './home.json'
-import './home.css'
+import '../../styles/home.css'
 
 export function HomePage() {
     return (

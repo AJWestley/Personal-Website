@@ -2,7 +2,7 @@ import { Footer } from "../../components/Footer"
 import { NavBar } from "../../components/Nav"
 import { createWorkCards } from "../../components/generators"
 import content from './work.json'
-import './work.css'
+import '../../styles/work.css'
 
 export function WorkMain() {
     return (

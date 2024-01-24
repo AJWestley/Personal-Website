@@ -1,4 +1,4 @@
-import './nav.css'
+import '../styles/nav.css'
 
 export function NavBar() {
     const toggleActive = () => {
@@ -17,7 +17,7 @@ export function NavBar() {
             </div>
             <ul className="navbar__menu">
                 <li className="navbar__item">
-                    <a href="/home" className="navbar__links">Home</a>
+                    <a href="/" className="navbar__links">Home</a>
                 </li>
                 <li className="navbar__item">
                     <a href="/about" className="navbar__links">About</a>

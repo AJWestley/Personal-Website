@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Footer } from "../../components/Footer";
 import { NavBar } from "../../components/Nav";
-import './about.css'
+import '../../styles/about.css'
 
 export function About() {
     return (

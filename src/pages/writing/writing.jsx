@@ -1,6 +1,6 @@
 import { NavBar } from "../../components/Nav"
 import { Footer } from "../../components/Footer"
-import './writing.css'
+import '../../styles/writing.css'
 
 export function WritingWork() {
     return (
