@@ -114,6 +114,7 @@
     .navbar__item {
         width: 100%;
         margin: 0;
+        height: 15vh;
     }
 
     .navbar__links {
