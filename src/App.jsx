@@ -13,13 +13,13 @@ function App() {
       <OGTags/>
       <Router>
         <Routes>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/work" element={<WorkMain />} />
           <Route path="/programming" element={<ProgrammingWork />} />
           <Route path="/research" element={<ResearchWork />} />
           <Route path="/writing" element={<WritingWork />} />
           <Route path="/about" element={<About />} />
-          <Route path="/" index element={<Navigate to="/home" />} />
+          <Route path="/home" index element={<Navigate to="/" />} />
         </Routes>
       </Router>
     </>
