@@ -1,21 +1,8 @@
-# Personal Website
-</p>
-The code to my personal website.
-</br>
-I wrote my website as an exercise in learning HTML and CSS, the JavaScript is fairly minimal. 
-</br>
-I won't go on describing the meat of the website here, <a href="https://ajwestley.me/" target="_blank" rel="noreferrer">go see for yourself!</a>
-<p/>
-  
-## Image Editor
-On the website, under the work page, there is an online image editor.
-Here, the user can upload an image and apply some minor edits, then download the result.
+# React + Vite
 
-### Features
-- Brightness, contrast and hue sliders.
-- Greyscale and sepia sliders
-- A blur slider
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Future Features
-- Image inversion
-- Preset filters
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

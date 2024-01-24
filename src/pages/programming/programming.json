@@ -1,0 +1,71 @@
+{
+    "title": "Creative Writing (Technically)",
+    "programming_cards": [
+        {
+            "title": "Aria",
+            "description": "A voice-based AI assistant, with functions like weather forecasts, timezones, playing music, opening/closing apps, searching the internet. There is also a chat mode which makes use of the OpenAI chat completion API.",
+            "image": "images/programming/AriaIcon.png",
+            "link": "https://github.com/AJWestley/Aria"
+        },
+        {
+            "title": "SimpleGPyT",
+            "description": "A Python package with a simplified object-oriented interface for OpenAI's chat completion API. Available on PYPI and can be installed with 'pip install simpleGPyT'.",
+            "image": "images/programming/simpleGPyT.png",
+            "link": "https://github.com/AJWestley/SimpleGPyT"
+        },
+        {
+            "title": "Fourier Transforms in C++",
+            "description": "A C++ library with an FFT algorithm and a few useful applied FFT methods.",
+            "image": "images/programming/fourier.png",
+            "link": "https://github.com/AJWestley/Fourier-Transforms"
+        },
+        {
+            "title": "Ideal and Non-Ideal Gas Simulation",
+            "description": "A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. For collision detection, I made use of a spatial hash map, which allows the program to handle upwards of 2500 particles without any significant performance drop.",
+            "image": "images/programming/GasSim.png",
+            "link": "https://github.com/AJWestley/Gas-Sim"
+        },
+        {
+            "title": "C Base Layer",
+            "description": "Some basic C utilities including data structures, algorithms and various math structures such as vectors, matrices and useful mathematical algorithms.",
+            "image": "images/programming/CLogo.png",
+            "link": "https://github.com/AJWestley/C-Base-Code"
+        },
+        {
+            "title": "Random Variable Distributions in C",
+            "description": "A C library for generating Random Variables according to a few common probability distributions. Also contains a Python wrapper for the library.",
+            "image": "images/programming/probability-dist.png",
+            "link": "https://github.com/AJWestley/Probability-Distributions"
+        },
+        {
+            "title": "ASCII Art Generator",
+            "description": "A GUI and terminal program which can create an ASCII artwork from an image. The GUI is made using the tkinter module.",
+            "image": "images/programming/ASCIIArt.png",
+            "link": "https://github.com/AJWestley/ASCII-Art-Maker"
+        },
+        {
+            "title": "Gravity Simulation",
+            "description": "A simple Newtonian gravity simulation written in Python which uses point masses to approximate different gravitational interactions. There are a few prebuilt systems in the code, such as our solar system and a binary star system with circumbinary planets.",
+            "image": "images/programming/gravity.png",
+            "link": "https://github.com/AJWestley/Gravity-Planetary-Orbit-Sim"
+        },
+        {
+            "title": "Pathfinder",
+            "description": "An app written in Java which allows the user to place a start point, end point and obstacles on a grid. The shortest path between the two points around any obstacles is then found and the process is visualized.",
+            "image": "images/programming/pathfinderCropped.png",
+            "link": "https://github.com/AJWestley/Pathfinder"
+        },
+        {
+            "title": "Sudoku Game",
+            "description": "A sudoku game written in Java using the LibGDX framework. The game doesn't have preloaded puzzles, but rather generates a random new puzzle depending on the selected difficulty. This is done with recursive backtracking.",
+            "image": "images/programming/sudoku.jpg",
+            "link": "https://github.com/AJWestley/Sudoku"
+        },
+        {
+            "title": "Wordle Clone",
+            "description": "A clone of Wordle, written in Python using the pygame module.",
+            "image": "images/programming/wordle.png",
+            "link": "https://github.com/AJWestley/Wordle_Clone"
+        }
+    ]
+}

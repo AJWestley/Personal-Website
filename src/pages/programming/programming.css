@@ -1,0 +1,156 @@
+.main {
+    margin-bottom: 5rem;
+}
+
+.main h1 {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    color: #eee;
+    background-size: 100%;
+    font-size: 2.5rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    margin-bottom: 5rem;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main__content {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.main__content h1 {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #eee;
+    background-size: 100%;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.main__content p {
+    color: #eee;
+    background-color: rgba(1, 1, 1, 0.5);
+    background-size: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.main__btn {
+    font-size: 1rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    padding: 6px 20px;
+    background: #140c3d;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+    color: #eee;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+}
+
+.main__btn a {
+    position: relative;
+    z-index: 2;
+    color: #eee;
+    text-decoration: none;
+}
+
+.main__btn:hover {
+    border-color: #9643ab;
+    transition: all 0.3s ease;
+}
+
+.main__img--container {
+    text-align: center;
+}
+
+.main__img--container img {
+    max-width: 350px;
+    background: #140c3d;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .main__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding-bottom: 80px;
+    }
+
+    .main__content {
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .main__content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .main__content p {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .main__img--container img {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .main h1 {
+        margin-bottom: 5rem;
+        font-size: 3.5rem;
+    }
+
+    .main__content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .main h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "title": "What have I been doing with my life?",
+    "work_cards": [
+        {
+            "name": "Programming",
+            "description": "Some of my programming projects",
+            "image": "images/work/computer.png",
+            "page": "/programming"
+        },
+        {
+            "name": "Research",
+            "description": "My academic writings and publications",
+            "image": "images/work/atom.png",
+            "page": "/research"
+        },
+        {
+            "name": "Creative Writing",
+            "description": "Some poetry I've written in my spare time",
+            "image": "images/work/quill.png",
+            "page": "/writing"
+        }
+    ]
+}

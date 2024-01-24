@@ -1,0 +1,180 @@
+.work {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.work h1 {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    color: #eee;
+    background-size: 100%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.work__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.work__card {
+    margin: 1rem;
+    height: 480px;
+    width: 400px;
+    border-radius: 3px;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.work__card img {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.work__card:nth-child(1) img {
+    top: 50px;
+    left: 80px;
+}
+
+.work__card:nth-child(2) img {
+    top: 50px;
+    left: 80px;
+}
+
+.work h2 {
+    position: absolute;
+    top: 320px;
+    left: 10px;
+}
+
+.work__card p {
+    position: absolute;
+    top: 370px;
+    left: 10px;
+}
+
+.work__card button {
+    color: #eee;
+    padding: 10px 20px;
+    outline: none;
+    background: #1c145c;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+    position: absolute;
+    top: 410px;
+    left: 120px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.work__card a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.work__card button:hover {
+    border-color: #9643ab;
+    transition: 0.2s ease-in;
+}
+
+.work__card:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 880px) {
+    .work h1 {
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .work h1 {
+        font-size: 2.5rem;
+    }
+
+    .work__card {
+        scale: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .work h1 {
+        font-size: 2.2rem;
+    }
+
+    .work__card {
+        scale: 80%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .work h1 {
+        font-size: 1.8rem;
+    }
+
+    .work__card {
+        scale: 70%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .work h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .work h1 {
+        font-size: 1.5rem;
+    }
+
+    .work__card {
+        scale: 60%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .work h1 {
+        font-size: 1.3rem;
+    }
+
+    .work__card {
+        scale: 50%;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .work h1 {
+        font-size: 1.1rem;
+    }
+
+    .work__card {
+        scale: 50%;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .work h1 {
+        font-size: 1rem;
+    }
+
+    .work__card {
+        scale: 50%;
+    }
+}

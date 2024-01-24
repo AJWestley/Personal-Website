@@ -1,0 +1,11 @@
+{
+    "title": "My Research",
+    "research_cards": [
+        {
+            "title": "A Cellular Automaton for a Two-Lane Roadway",
+            "description": "An investigation into the effect of road bottlenecks on a two-lane roadway using the Nagel-Schreckenberg model, with all findings and data attached.",
+            "image": "images/research/NaSch.png",
+            "link": "Research/NaSchReport.pdf"
+        }
+    ]
+}

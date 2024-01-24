@@ -1,59 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Writing</title>
-    <link rel="stylesheet" href="writingWorkStyles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/1ae5700e02.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-      <div class="navbar__container">
-        <a href="/" id="navbar__logo">AJ Westley</a>
-        <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="/index.html" class="navbar__links">Home</a>
-          </li>
-          <li class="navbar__item">
-            <a href="/about.html" class="navbar__links">About</a>
-          </li>
-          <li class="navbar__item">
-            <a href="/workmain.html" class="navbar__links">Work</a>
-          </li>
-          <li class="navbar__item">
-            <a
-              href="mailto:alexanderjwestley@gmail.com?subject=AJ Westley Contact Form"
-              class="navbar__links"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Main -->
-    <div class="main">
+import { NavBar } from "../../components/Nav"
+import { Footer } from "../../components/Footer"
+import './writing.css'
+
+export function WritingWork() {
+    return (
+        <>
+        <NavBar/>
+        <WritingContent/>
+        <Footer/>
+        </>
+    )
+}
+
+function WritingContent() {
+    return (
+        <div className="main">
       <h1>My less stressful creative writing</h1>
+
       <h3>A longer piece</h3>
-      <div class="ss__container">
-        <div class="ss__card">
-          <img src="images/writing/leaf.png" alt="" />
+      <div className="ss__container">
+        <div className="ss__card">
+          <img src="images/writing/leaf.png" alt="" target="_blank"/>
           <h2>Fall</h2>
           <p>
             A short story about being caught up in the magic of falling in love
@@ -63,17 +30,19 @@
           </button>
         </div>
       </div>
+
       <h3>Haikus</h3>
-      <div class="poem__container">
-        <div class="poem__card" id="haiku">
-          <h2>Autumn's Sunset</h2>
+      <div className="poem__container">
+        <div className="poem__card" id="haiku">
+          <h2>Autumn&apos;s Sunset</h2>
           <p>
-            Cool autumn's sunset <br />
+            Cool autumn&apos;s sunset <br />
             That glow of amber magic <br />
             Serene bewitchment <br />
           </p>
         </div>
-        <div class="poem__card" id="haiku">
+
+        <div className="poem__card" id="haiku">
           <h2>Melody</h2>
           <p>
             My sweet melody <br />
@@ -82,9 +51,10 @@
           </p>
         </div>
       </div>
+
       <h3>Other short poems</h3>
-      <div class="poem__container">
-        <div class="poem__card" id="perspectiveChange">
+      <div className="poem__container">
+        <div className="poem__card" id="perspectiveChange">
           <h2>Perspective</h2>
           <p>
             Quickly <br />
@@ -110,7 +80,8 @@
             (now read it upwards) <br />
           </p>
         </div>
-        <div class="poem__card" id="timeAndSpace">
+
+        <div className="poem__card" id="timeAndSpace">
           <h2>Time and Space</h2>
           <p>
             so i reached up into the cosmos <br />
@@ -118,16 +89,17 @@
             and i tried to tear the universe apart <br />
             to rip space-time in two <br />
             because <br />
-            i don't want space <br />
+            i don&apos;t want space <br />
             all i want is time... <br />
             but only Yours <br />
           </p>
         </div>
-        <div class="poem__card" id="unrequited">
+
+        <div className="poem__card" id="unrequited">
           <h2>Unrequited</h2>
           <p>
             I wove wistful wishes among the soft highlights of her hair while
-            she wasn't looking... <br />
+            she wasn&apos;t looking... <br />
             Dreamily, her gaze traced along the ceiling, <br />
             I painted her peaceful smile into my soul, but I could never <br />
             Never <br />
@@ -139,9 +111,10 @@
           </p>
         </div>
       </div>
+
       <h3>Longer poems</h3>
-      <div class="poem__container">
-        <div class="poem__card" id="innocence">
+      <div className="poem__container">
+        <div className="poem__card" id="innocence">
           <h2>Innocence</h2>
           <p>
             It may seem silly <br />
@@ -159,13 +132,14 @@
             and to paint my imagination into the wind <br />
           </p>
         </div>
-        <div class="poem__card" id="anteros">
+
+        <div className="poem__card" id="anteros">
           <h2>Anteros</h2>
           <p>
             My butterflies are mostly resting now. <br />
-            She doesn't startle them the way she used to... <br />
+            She doesn&apos;t startle them the way she used to... <br />
             I held onto that: <br />
-            The way she'd look in my direction and they'd all take flight,
+            The way she&apos;d look in my direction and they&apos;d all take flight,
             <br />
             Spinning, fluttering, trembling, <br />
             Twisting my stomach into knots. <br />
@@ -175,10 +149,11 @@
             And my butterflies settled contentedly into that emptiness... <br />
             They still bat their wings nostalgically when she passes by. <br />
             Sometimes one or two will flitter around for a second, <br />
-            Just to remind me that they're there... <br />
+            Just to remind me that they&apos;re there... <br />
           </p>
         </div>
-        <div class="poem__card" id="drawnToYou">
+
+        <div className="poem__card" id="drawnToYou">
           <h2>Drawn</h2>
           <p>
             I was drawn to you: <br />
@@ -197,23 +172,25 @@
           </p>
         </div>
       </div>
+
       <h3>Afrikaans poems</h3>
-      <div class="poem__container">
-        <div class="poem__card" id="nerens">
+      <div className="poem__container">
+        <div className="poem__card" id="nerens">
           <h2>Niks en nerens</h2>
           <p>
             Vanoggend was ek tussen niks en nerens... <br />
             En vanaand bly ek nog daar, <br />
             Maar dis nie dieselfde nie. <br />
-            Jy's die verskil. <br />
+            Jy&apos;s die verskil. <br />
             Kom ons bly saam <br />
             Tussen ons niks en nerens... <br />
           </p>
         </div>
-        <div class="poem__card" id="tussen">
+        
+        <div className="poem__card" id="tussen">
           <h2>Tussen die sterre</h2>
           <p>
-            Jy's die donker tussen die sterre. <br />
+            Jy&apos;s die donker tussen die sterre. <br />
             Altyd daar <br />
             Na my sonnigste dae, <br />
             Op my donkerste nagte... <br />
@@ -227,43 +204,5 @@
         </div>
       </div>
     </div>
-    <!-- Footer -->
-    <div class="footer__container">
-      <div class="social__media">
-        <div class="social__media--wrap">
-          <div class="social__icons">
-            <a
-              href="https://www.facebook.com/profile.php?id=100009361455479&mibextid=LQQJ4d"
-              class="social__icon--link"
-              target="_blank"
-            >
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/ajwestley88/"
-              class="social__icon--link"
-              target="_blank"
-            >
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a
-              href="https://github.com/AJWestley"
-              class="social__icon--link"
-              target="_blank"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aj-westley-94b205258/"
-              class="social__icon--link"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="indexScript.js"></script>
-  </body>
-</html>
+    )
+}
