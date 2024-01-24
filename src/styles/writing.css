@@ -1,26 +1,27 @@
-.main {
+.writing__main {
     background: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 16px;
 }
 
-.main h1 {
+.writing__main h1 {
     padding-bottom: 0px;
     padding-top: 20px;
     color: #eee;
     background-size: 100%;
-    margin: 2rem;
-    font-size: 2.5rem;
+    margin: 32px;
+    font-size: 40px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-.main h3 {
-    margin-top: 3rem;
+.writing__main h3 {
+    margin-top: 48px;
     color: #eee;
     background-size: 100%;
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    margin-bottom: 8px;
+    font-size: 24px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .ss__card {
-    margin: 1rem;
+    margin: 16px;
     height: 400px;
     width: 300px;
     border-radius: 3px;
@@ -54,7 +55,7 @@
     position: absolute;
     top: 220px;
     left: 115px;
-    font-size: 2rem;
+    font-size: 32px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
@@ -75,7 +76,7 @@
     position: absolute;
     top: 330px;
     left: 110px;
-    font-size: 1rem;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -96,24 +97,24 @@
 }
 
 .poem__container h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     position: relative;
     text-align: center;
-    padding: 1rem;
-    padding-bottom: 0.5rem;
+    padding: 16px;
+    padding-bottom: 8px;
 }
 
 .poem__container p {
-    font-size: 1rem;
+    font-size: 16px;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     display: flex;
     justify-content: center;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .poem__card {
-    margin: 1rem;
+    margin: 16px;
     max-width: 300px;
     border-radius: 3px;
     border-color: #eee;
@@ -160,14 +161,14 @@
 }
 
 @media screen and (max-width: 790px) {
-    .main h1 {
-        font-size: 3.5rem
+    .writing__main h1 {
+        font-size: 56px;
     }
 }
 
 @media screen and (max-width: 590px) {
-    .main h1 {
-        font-size: 3rem
+    .writing__main h1 {
+        font-size: 48px;
     }
 
     #timeAndSpace {
@@ -180,19 +181,19 @@
 }
 
 @media screen and (max-width: 520px) {
-    .main h1 {
-        font-size: 2.5rem
+    .writing__main h1 {
+        font-size: 40px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .main h1 {
-        font-size: 2rem
+    .writing__main h1 {
+        font-size: 32px;
     }
 }
 
 @media screen and (max-width: 370px) {
-    .main h1 {
-        font-size: 1.8rem
+    .writing__main h1 {
+        font-size: 28.8px;
     }
 }

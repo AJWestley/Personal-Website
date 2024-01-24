@@ -14,7 +14,7 @@ export function WritingWork() {
 
 function WritingContent() {
     return (
-        <div className="main">
+        <div className="writing__main">
       <h1>My less stressful creative writing</h1>
 
       <h3>A longer piece</h3>
