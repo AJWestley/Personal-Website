@@ -2,7 +2,7 @@ import { NavBar } from '../../components/Nav'
 import { Footer } from '../../components/Footer'
 import { createProjectCards } from '../../components/generators'
 import content from './research.json'
-import '../../styles/research.css'
+import '../../styles/programming.css'
 
 export function ResearchWork() {
     return (
