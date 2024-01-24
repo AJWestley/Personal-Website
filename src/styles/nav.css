@@ -78,24 +78,23 @@
     }
 
     .navbar__menu {
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
         margin: 0;
-        width: 100%;
+        width: 40%;
         position: absolute;
-        top: -4000px;
+        top: 75%;
+        left: 300vw;
         opacity: 0;
         transition: all 0.5s ease;
-        height: 50vh;
         z-index: -1;
     }
 
     .navbar__menu.active {
-        top: 75%;
+        left: 58%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
-        height: 50vh;
         font-size: 1.6rem;
     }
 
@@ -112,17 +111,14 @@
     }
 
     .navbar__item {
-        width: 100%;
-        margin: 0;
-        height: 15vh;
+        margin: 1rem;
+        width: 100%
     }
 
     .navbar__links {
-        text-align: center;
-        padding: 2rem;
+        text-align: right;
+        padding: 1.5rem;
         margin: 0;
-        width: 100%;
-        /* display: table; */
         border-radius: 0;
     }
 
