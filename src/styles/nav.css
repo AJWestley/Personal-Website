@@ -83,7 +83,7 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        top: -1000px;
+        top: -4000px;
         opacity: 0;
         transition: all 0.5s ease;
         height: 50vh;
