@@ -7,12 +7,12 @@
 
 @font-face {
     font-family: OldSchool;
-    src: url(fonts/connection.otf);
+    src: url(../assets/fonts/connection.otf);
 }
 
 @font-face {
     font-family: goblin;
-    src: url(fonts/Goblin.ttf);
+    src: url(../assets/fonts/Goblin.ttf);
 }
 
 html { 
