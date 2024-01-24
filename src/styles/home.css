@@ -95,6 +95,17 @@
     display: inline;
 }
 
+@media screen and (max-width: 1050px) and (min-width: 800px) {
+    .home__img--container {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .home__img--container .img-text {
+        left: 180px;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .home__container {
@@ -131,10 +142,10 @@
     }
     
     .home__img--container img {
-        width: 60%;
+        width: 70%;
     }
 
     .home__img--container .img-text {
-        scale: 60%;
+        scale: 70%;
     }
 }
