@@ -20,10 +20,10 @@ button.accordion {
     outline: none;
     text-align: left;
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #eee;
     cursor: pointer;
-    transition: background-color 0.2s linear;
+    transition: 0.2s linear;
     margin-bottom: 1rem;
 }
   
@@ -31,7 +31,7 @@ button.accordion:after {
     font-family: FontAwesome;
     content: "\f150";
     font-family: "fontawesome";
-    font-size: 18px;
+    font-size: 1.2rem;
     float: right;
     margin-bottom: 0;
 }
@@ -51,9 +51,8 @@ button.accordion:hover {
     padding: 0;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     margin-bottom: 1rem;
-    
 }
 
 .accordion-content p {
