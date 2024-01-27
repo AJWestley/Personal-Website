@@ -1,7 +1,7 @@
 import { NavBar } from '../../components/Nav';
 import { Footer } from '../../components/Footer';
-import mouthClosed from '/images/me/mouthClosed.png'
-import mouthOpen from '/images/me/mouthOpen.png'
+import mouthClosed from '/images/me/mouthClosed.webp'
+import mouthOpen from '/images/me/mouthOpen.webp'
 import greeting from '/images/me/greeting.png'
 import content from './home.json'
 import '../../styles/home.css'
