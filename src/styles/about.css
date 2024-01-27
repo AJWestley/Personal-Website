@@ -28,7 +28,6 @@ button.accordion {
 }
   
 button.accordion:after {
-    font-family: FontAwesome;
     content: "\f150";
     font-family: "fontawesome";
     font-size: 1.2rem;

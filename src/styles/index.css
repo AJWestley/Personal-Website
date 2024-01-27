@@ -8,11 +8,13 @@
 @font-face {
     font-family: OldSchool;
     src: url(../assets/fonts/connection.otf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: goblin;
     src: url(../assets/fonts/Goblin.ttf);
+    font-display: swap;
 }
 
 html { 

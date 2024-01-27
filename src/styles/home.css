@@ -2,9 +2,7 @@
     display: grid;
     grid-template-columns: 0.8fr 1fr;
     align-items: center;
-    justify-self: center;
     margin: 0 auto;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     min-height: 90vh;
