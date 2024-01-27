@@ -115,24 +115,24 @@
 
 @media screen and (max-width: 1050px) {
     .work {
-        margin-bottom: 2rem;
+        margin-bottom: 0;
     }
 
     .work h1 {
         margin-bottom: 1rem;
         margin-left: 50px;
         margin-right: 50px;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .work__card {
-        margin: 1rem;
-        height: 20rem;
-        width: 16rem;
+        margin: 0.5rem;
+        height: 30rem;
+        width: 24rem;
     }
 
     .work__card img {
-        max-width: 8rem;
+        max-width: 12rem;
         position: relative;
         top: 10%;
         left: 30%;
@@ -152,22 +152,26 @@
 
     .work h2 {
         position: absolute;
-        top: 12rem;
+        top: 17rem;
         left: 0.5rem;
+        font-size: 2rem;
+        padding: 1rem;
     }
 
     .work__card p {
         position: absolute;
-        top: 14rem;
+        top: 20rem;
         left: 0.5rem;
+        font-size: 1.4rem;
+        padding: 1rem;
     }
 
     .work__card button {
         padding: 0.5rem 1rem;
         position: absolute;
-        top: 17rem;
+        top: 25.5rem;
         left: 25%;
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 }
 
