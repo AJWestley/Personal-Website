@@ -50,18 +50,6 @@
             "link": "https://github.com/AJWestley/Gravity-Planetary-Orbit-Sim"
         },
         {
-            "title": "Pathfinder",
-            "description": "An app written in Java which allows the user to place a start point, end point and obstacles on a grid. The shortest path between the two points around any obstacles is then found and the process is visualized.",
-            "image": "images/programming/pathfinderCropped.png",
-            "link": "https://github.com/AJWestley/Pathfinder"
-        },
-        {
-            "title": "Sudoku Game",
-            "description": "A sudoku game written in Java using the LibGDX framework. The game doesn't have preloaded puzzles, but rather generates a random new puzzle depending on the selected difficulty. This is done with recursive backtracking.",
-            "image": "images/programming/sudoku.jpg",
-            "link": "https://github.com/AJWestley/Sudoku"
-        },
-        {
             "title": "Wordle Clone",
             "description": "A clone of Wordle, written in Python using the pygame module.",
             "image": "images/programming/wordle.png",
