@@ -26,16 +26,22 @@
             "link": "https://github.com/AJWestley/Gas-Sim"
         },
         {
+            "title": "Random Variable Distributions in C",
+            "description": "A C library for generating Random Variables according to a few common probability distributions. Also contains a Python wrapper for the library.",
+            "image": "images/programming/probability-dist.png",
+            "link": "https://github.com/AJWestley/Probability-Distributions"
+        },
+        {
             "title": "C Base Layer",
             "description": "Some basic C utilities including data structures, algorithms and various math structures such as vectors, matrices and useful mathematical algorithms.",
             "image": "images/programming/CLogo.png",
             "link": "https://github.com/AJWestley/C-Base-Code"
         },
         {
-            "title": "Random Variable Distributions in C",
-            "description": "A C library for generating Random Variables according to a few common probability distributions. Also contains a Python wrapper for the library.",
-            "image": "images/programming/probability-dist.png",
-            "link": "https://github.com/AJWestley/Probability-Distributions"
+            "title": "Prolog Predicates",
+            "description": "Some useful predefined Prolog predicates.",
+            "image": "images/programming/PrologLogo.png",
+            "link": "https://github.com/AJWestley/Predicates"
         },
         {
             "title": "ASCII Art Generator",
