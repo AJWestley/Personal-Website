@@ -8,12 +8,6 @@
             "link": "https://github.com/AJWestley/Aria"
         },
         {
-            "title": "SimpleGPyT",
-            "description": "A Python package with a simplified object-oriented interface for OpenAI's chat completion API. Available on PYPI and can be installed with 'pip install simpleGPyT'.",
-            "image": "images/programming/simpleGPyT.png",
-            "link": "https://github.com/AJWestley/SimpleGPyT"
-        },
-        {
             "title": "Fourier Transforms in C++",
             "description": "A C++ library with an FFT algorithm and a few useful applied FFT methods.",
             "image": "images/programming/fourier.png",
@@ -32,6 +26,12 @@
             "link": "https://github.com/AJWestley/Probability-Distributions"
         },
         {
+            "title": "Mushroom Mosaic",
+            "description": "A Python program that can recreates images as a mosaic of mushrooms.",
+            "image": "images/programming/mushroomMosaic.png",
+            "link": "https://github.com/AJWestley/Mushroom-Mosaic"
+        },
+        {
             "title": "C Base Layer",
             "description": "Some basic C utilities including data structures, algorithms and various math structures such as vectors, matrices and useful mathematical algorithms.",
             "image": "images/programming/CLogo.png",
@@ -48,6 +48,12 @@
             "description": "A GUI and terminal program which can create an ASCII artwork from an image. The GUI is made using the tkinter module.",
             "image": "images/programming/ASCIIArt.png",
             "link": "https://github.com/AJWestley/ASCII-Art-Maker"
+        },
+        {
+            "title": "SimpleGPyT",
+            "description": "A Python package with a simplified object-oriented interface for OpenAI's chat completion API. Available on PYPI and can be installed with 'pip install simpleGPyT'.",
+            "image": "images/programming/simpleGPyT.png",
+            "link": "https://github.com/AJWestley/SimpleGPyT"
         },
         {
             "title": "Gravity Simulation",
