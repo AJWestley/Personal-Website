@@ -2,6 +2,12 @@
     "title": "Creative Writing (Technically)",
     "programming_cards": [
         {
+            "title": "Neural Network By Hand",
+            "description": "A feed-forward neural network I made from scratch using only Numpy.",
+            "image": "images/programming/annFromScratch.png",
+            "link": "https://github.com/AJWestley/Neural-Network-By-Hand"
+        },
+        {
             "title": "Aria",
             "description": "A voice-based AI assistant, with functions like weather forecasts, timezones, playing music, opening/closing apps, searching the internet. There is also a chat mode which makes use of the OpenAI chat completion API.",
             "image": "images/programming/AriaIcon.png",
