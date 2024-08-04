@@ -14,6 +14,12 @@
             "link": "https://github.com/AJWestley/Aria"
         },
         {
+            "title": "Qubit Simulator",
+            "description": "An object-class which imitates the behaviour of a qubit, with all the typical single-qubit gates..",
+            "image": "images/programming/BlochSphere.png",
+            "link": "https://github.com/AJWestley/Qubit-Sim"
+        },
+        {
             "title": "Fourier Transforms in C++",
             "description": "A C++ library with an FFT algorithm and a few useful applied FFT methods.",
             "image": "images/programming/fourier.png",
