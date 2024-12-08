@@ -8,6 +8,12 @@
             "link": "https://github.com/AJWestley/Neural-Network-By-Hand"
         },
         {
+            "title": "QAOA Max-Cut",
+            "description": "A Quantum algorithm that can find an approximate solution to the Max-Cut problem.",
+            "image": "images/programming/4NodeGraph.png",
+            "link": "https://github.com/AJWestley/QAOA-MaxCut"
+        },
+        {
             "title": "Number Classifier",
             "description": "A drawing pad app that tries to guess which number you drew. The underlying classifier makes use of a pretrained Convolutional Neural Network.",
             "image": "images/programming/NumClassifier.webp",

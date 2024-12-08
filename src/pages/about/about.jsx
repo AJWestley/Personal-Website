@@ -44,11 +44,9 @@ function AboutContent() {
                 <button className="accordion">Overview</button>
                 <div className="accordion-content">
                     <p>
-                        At my core, I am passionate about programming, physics (mostly astronomy), writing, and music. 
-                        I have aspirations to get a masters degree in Artificial Intelligence, then I&apos;ll decide what I want to do from there. <br/>
-                        The world is so full of opportunities (cliche, I know) and there&apos;s so much I want to do, so I like to keep my options open until the time comes where I have to choose. <br/>
-                        Will I become an astrophysicist? Will I become a machine learning engineer? Will I drop out of uni and become a professional crab tamer?
-                        Only time will tell. <br/>
+                        At my core, I am passionate about machine learning and AI, physics (mostly astronomy), writing, and music. 
+                        I have aspirations to get a masters degree in Artificial Intelligence, then hopefully go further and study a PhD.
+                        The part of university I enjoyed the most was my final-year research project, so academia feels like the right place for me.
                         <br/>
                     </p>
                 </div>
@@ -58,7 +56,7 @@ function AboutContent() {
                     <p>
                         In 2020 (spooky year), I matriculated from Maritzburg College with an NSC Bachelor&apos;s Pass. 
                         After that, I enrolled at Stellenbosch University for BSc Computer Science. 
-                        (Where I&apos;m currently doing my Honours year.) 
+                        I graduated my Computer Science Honours with Cum Laude, and my final year research project won first place at the Undergraduate Research Conference.
                         Aside from that, I also have a Grade 6 in Music Theory from UNISA and a Grade 6 in Trumpet Performance from Trinity College London.
                         <br/>
                     </p>
@@ -74,9 +72,9 @@ function AboutContent() {
                         I was regularly a part of school stage productions (sometimes in the band, sometimes on stage). The only non-music 
                         extra-curricular I did was esports (yes, I was and still am a gaming nerd). <br/>
                         <br/>
-                        Currently, I am a part the Stellenbosch University Choir 
+                        During my first three years of uni, I was part of the Stellenbosch University Choir
                         (<a href="https://www.youtube.com/@StellenboschUniversityChoir" target="_blank" rel="noreferrer">obligatory marketing</a>) and the concerts and weekly practices  
-                        keep me busy when I&apos;m not doing work. <br/>
+                        kept me busy when I wasn't doing work. <br/>
                         <br/>
                         As far as hobbies go, 
                         I enjoy artsy things such as poetry, creative writing, playing guitar (I&apos;m not very good) and singing. 
