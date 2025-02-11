@@ -4,7 +4,7 @@
         {
             "title": "A Two-Phase Safe Reinforcement Learning Framework for Finding the Safe Policy Space",
             "description": "As reinforcement learning (RL) expands into safety-critical domains, ensuring agent adherence to safety constraints becomes crucial. This paper introduces a two-phase approach to safe RL, Violation-Guided Identification of Safety (ViGIS), which first identifies a safe policy space and then performs standard RL within this space. We present two variants: ViGIS-P, which precalculates the safe policy space given a known transition function, and ViGIS-L, which learns the safe policy space through exploration. We evaluate ViGIS in three environments: a multi-constraint taxi world, a deterministic bank robber game, and a continuous cart-pole problem. Results show that both variants significantly reduce constraint violations compared to standard and β-pessimistic Q-learning, sometimes at the cost of achieving a lower average reward. ViGIS-L consistently outperforms ViGIS-P in the taxi world, especially as constraints increase. In the bank robber environment, both achieve perfect safety. A Deep Q-Network (DQN) implementation of ViGIS-L in the cart-pole domain reduces violations compared to a standard DQN. This research contributes to safe RL by providing a flexible framework for incorporating safety constraints into the RL process. The two-phase approach allows for clear separation between safety consideration and task optimization, potentially easing application in various safety-critical domains.",
-            "image": "images/research/RLWorst.pdf",
+            "image": "images/research/ICAART2025.png",
             "link": "Research/Two Phase RL for Safe Policy Space.pdf"
         }
     ]
