@@ -19,6 +19,7 @@ function Game() {
     const [inputText, setInputText] = useState("");
     const [code, setCode] = useState({});
     const [encodedMessage, setEncodedMessage] = useState("");
+    const [formattedCode, setFormattedCode] = useState("");
 
     function handleEncode() {
         let shuffled = [...alphabet]; // Make a fresh copy to shuffle
@@ -36,8 +37,14 @@ function Game() {
             .map(char => newCode[char] || char) // Leave unknown chars unchanged
             .join('');
 
+        // Format the code mapping as a readable list: "a -> b, b -> z, c -> x, ..."
+        let newFormattedCode = Object.entries(newCode)
+            .map(([key, value]) => `${key} -> ${value}`)
+            .join(', ');
+
         setCode(newCode); // Update code mapping
         setEncodedMessage(newEncodedMessage); // Update encoded message
+        setFormattedCode(newFormattedCode); // Update formatted mapping
     }
 
     return (
@@ -63,7 +70,7 @@ function Game() {
                     rows="4" 
                     cols="50"
                     readOnly
-                    value={JSON.stringify(code, null, 2)}
+                    value={formattedCode}
                 />
 
                 <h2 id='disappearing'>The encoded message:</h2>
