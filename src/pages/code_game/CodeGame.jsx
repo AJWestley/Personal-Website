@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { NavBar } from '../../components/Nav';
 import { Footer } from '../../components/Footer';
 import '../../styles/code_game.css'
