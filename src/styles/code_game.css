@@ -53,6 +53,22 @@
     height: 10rem;
 }
 
+.code__btn {
+    font-size: 1rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    padding: 6px 20px;
+    background: #140c3d;
+    border-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+    color: #eee;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+}
+
 @media screen and (max-width: 1050px) and (min-width: 800px) {
     
 }
