@@ -5,6 +5,7 @@ import { WorkMain } from './pages/work/work';
 import { ResearchWork } from './pages/research/research';
 import { ProgrammingWork } from './pages/programming/programming';
 import { WritingWork } from './pages/writing/writing';
+import { CodeGame } from './pages/code_game/CodeGame';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/research" element={<ResearchWork />} />
         <Route path="/writing" element={<WritingWork />} />
         <Route path="/about" element={<About />} />
+        <Route path="/code_game" element={<CodeGame />} />
         <Route path="/home" index element={<Navigate to="/" />} />
       </Routes>
     </Router>
