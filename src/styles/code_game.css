@@ -19,8 +19,18 @@
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
+.code_game__container h2 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: #eee;
+    background-size: 100%;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
 .code_input__textarea {
     resize: none;
+    padding: 1rem;
     width: 70vw;
     height: 5rem;
 }
