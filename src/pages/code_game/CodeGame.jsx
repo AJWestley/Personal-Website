@@ -50,6 +50,13 @@ function Game() {
         setFormattedCode(newFormattedCode); // Update formatted mapping
     }
 
+    function autoResizeTextArea(textareaRef) {
+        if (textareaRef.current) {
+            textareaRef.current.style.height = "auto"; // Reset height
+            textareaRef.current.style.height = textareaRef.current.scrollHeight + "px"; // Adjust height
+        }
+    }
+
     useEffect(() => {
         if (secretCodeRef.current) {
             secretCodeRef.current.style.height = "auto"; // Reset height

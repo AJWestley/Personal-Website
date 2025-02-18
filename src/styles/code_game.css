@@ -45,7 +45,6 @@
 
 .secret_code__textarea {
     resize: none;
-    overflow: hidden;
     min-height: 50px;
     padding: 1rem;
     width: 60vw;
@@ -56,7 +55,6 @@
 
 .encoded_message__textarea {
     resize: none;
-    overflow: hidden;
     min-height: 50px;
     padding: 1rem;
     width: 60vw;
