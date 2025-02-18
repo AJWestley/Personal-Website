@@ -39,6 +39,8 @@
     width: 60vw;
     height: 10rem;
     border: 1px solid #eee;
+    background-color: rgba(1, 1, 1, 0.5);
+    color: #eee;
 }
 
 .secret_code__textarea {
@@ -47,8 +49,9 @@
     min-height: 50px;
     padding: 1rem;
     width: 60vw;
-    height: 5rem;
     border: 1px solid #eee;
+    background-color: rgba(1, 1, 1, 0.5);
+    color: #eee;
 }
 
 .encoded_message__textarea {
@@ -57,8 +60,9 @@
     min-height: 50px;
     padding: 1rem;
     width: 60vw;
-    height: 10rem;
     border: 1px solid #eee;
+    background-color: rgba(1, 1, 1, 0.5);
+    color: #eee;
 }
 
 .code__btn {
