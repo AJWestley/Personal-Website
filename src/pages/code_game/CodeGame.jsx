@@ -1,21 +1,21 @@
 import { NavBar } from '../../components/Nav';
 import { Footer } from '../../components/Footer';
-import '../../styles/home.css'
+import '../../styles/code_game.css'
 
-export function HomePage() {
+export function GamePage() {
     return (
         <>
         <NavBar/>
-        <HomeContent/>
+        <Game/>
         <Footer/>
         </>
     )
 }
 
-function HomeContent() {
+function Game() {
     return (
-        <div className="home">
-            <div className="home__container">
+        <div className="code_game">
+            <div className="code_game__container">
                 
             </div>
         </div>
