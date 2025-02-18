@@ -24,6 +24,7 @@ function Game() {
                 <h2>Enter secret message:</h2>
                 <textarea className="code_input__textarea" rows="4" cols="50">
                 </textarea>
+                <button>Encode</button>
                 <h2 id='disappearing'>The secret code:</h2>
                 <textarea id='disappearing' className="secret_code__textarea" rows="4" cols="50">
                 </textarea>
