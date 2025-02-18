@@ -16,7 +16,7 @@ function Game() {
     return (
         <div className="code_game">
             <div className="code_game__container">
-                <h1>Code Cracker!</h1>
+                <h1 className='code_game__header'>Code Cracker!</h1>
                 <textarea className="code_input__textarea" rows="4" cols="50">
                     
                 </textarea>
