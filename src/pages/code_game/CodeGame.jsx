@@ -58,14 +58,8 @@ function Game() {
     }
 
     useEffect(() => {
-        if (secretCodeRef.current) {
-            secretCodeRef.current.style.height = "auto"; // Reset height
-            secretCodeRef.current.style.height = secretCodeRef.current.scrollHeight + "px"; // Adjust height
-        }
-        if (encodedMessageRef.current) {
-            encodedMessageRef.current.style.height = "auto";
-            encodedMessageRef.current.style.height = encodedMessageRef.current.scrollHeight + "px";
-        }
+        autoResizeTextArea(secretCodeRef);
+        autoResizeTextArea(encodedMessageRef);
     }, [formattedCode, encodedMessage]);
 
     return (
@@ -88,6 +82,7 @@ function Game() {
                 <textarea 
                     id='disappearing' 
                     className="secret_code__textarea" 
+                    ref={secretCodeRef}
                     rows="4" 
                     cols="50"
                     readOnly
@@ -98,6 +93,7 @@ function Game() {
                 <textarea 
                     id='disappearing' 
                     className="encoded_message__textarea" 
+                    ref={encodedMessageRef}
                     rows="4" 
                     cols="50"
                     readOnly
