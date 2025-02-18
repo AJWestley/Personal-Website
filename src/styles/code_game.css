@@ -38,20 +38,27 @@
     padding: 1rem;
     width: 60vw;
     height: 10rem;
+    border: 1px solid #eee;
 }
 
 .secret_code__textarea {
     resize: none;
+    overflow: hidden;
+    min-height: 50px;
     padding: 1rem;
     width: 60vw;
     height: 5rem;
+    border: 1px solid #eee;
 }
 
 .encoded_message__textarea {
     resize: none;
+    overflow: hidden;
+    min-height: 50px;
     padding: 1rem;
     width: 60vw;
     height: 10rem;
+    border: 1px solid #eee;
 }
 
 .code__btn {

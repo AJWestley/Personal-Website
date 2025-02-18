@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { NavBar } from '../../components/Nav';
 import { Footer } from '../../components/Footer';
 import '../../styles/code_game.css'
@@ -20,6 +20,9 @@ function Game() {
     const [code, setCode] = useState({});
     const [encodedMessage, setEncodedMessage] = useState("");
     const [formattedCode, setFormattedCode] = useState("");
+
+    const secretCodeRef = useRef(null);
+    const encodedMessageRef = useRef(null);
 
     function handleEncode() {
         let shuffled = [...alphabet]; // Make a fresh copy to shuffle
@@ -46,6 +49,17 @@ function Game() {
         setEncodedMessage(newEncodedMessage); // Update encoded message
         setFormattedCode(newFormattedCode); // Update formatted mapping
     }
+
+    useEffect(() => {
+        if (secretCodeRef.current) {
+            secretCodeRef.current.style.height = "auto"; // Reset height
+            secretCodeRef.current.style.height = secretCodeRef.current.scrollHeight + "px"; // Adjust height
+        }
+        if (encodedMessageRef.current) {
+            encodedMessageRef.current.style.height = "auto";
+            encodedMessageRef.current.style.height = encodedMessageRef.current.scrollHeight + "px";
+        }
+    }, [formattedCode, encodedMessage]);
 
     return (
         <div className="code_game">
