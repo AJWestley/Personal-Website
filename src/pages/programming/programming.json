@@ -8,6 +8,18 @@
             "link": "https://github.com/AJWestley/Neural-Network-By-Hand"
         },
         {
+            "title": "ScrollScript",
+            "description": "A magic-themed, interpreted programming language.",
+            "image": "images/programming/ScrollScript.png",
+            "link": "https://github.com/AJWestley/ScrollScript"
+        },
+        {
+            "title": "DuckTop",
+            "description": "A cute duck to keep you company on your desktop.",
+            "image": "images/programming/ducktop.png",
+            "link": "https://github.com/AJWestley/DuckTop"
+        },
+        {
             "title": "QAOA Max-Cut",
             "description": "A Quantum algorithm that can find an approximate solution to the Max-Cut problem.",
             "image": "images/programming/4NodeGraph.png",
