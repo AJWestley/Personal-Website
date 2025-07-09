@@ -1,6 +1,6 @@
 # Personal Website
 
-The code to my <a href="https://ajwestley.me/" target="_blank" rel="noreferrer">personal website</a>. </br>
+The code to my <a href="https://ajwestley.com/" target="_blank" rel="noreferrer">personal website</a>. </br>
 
 I initially wrote my website as an exercise in learning HTML and CSS, so the JavaScript was fairly minimal, but a 
 year later I rewrote the site with React to make editing the site a bit easier.
