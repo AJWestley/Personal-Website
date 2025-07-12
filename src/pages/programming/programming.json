@@ -2,10 +2,52 @@
     "title": "Creative Writing (Technically)",
     "programming_cards": [
         {
+            "title": "Galaxy Spin Mapping",
+            "description": "A Python module that can be used to calculate the redshift of MaNGA galaxy pixels by fitting well-known emission lines. I use this to construct a rotation map of two example galaxies, as well as calculate their total redshift to 1% accuracy.",
+            "image": "images/programming/redshift.png",
+            "link": "https://github.com/AJWestley/Galaxy-Redshift"
+        },
+        {
+            "title": "Raspberry Pi Quantum Server",
+            "description": "A server that can run OpenQASM quantum programs. It currently runs on my own Raspberry Pi.",
+            "image": "images/programming/quantum_server.png",
+            "link": "https://github.com/AJWestley/Raspberry-Pi-Quantum-Computer"
+        },
+        {
+            "title": "QASM Code Editor",
+            "description": "A client program for my Raspberry Pi quantum server. If my server is running, you can use this to write and run OpenQASM quantum programs. It also visualises the circuit as you go, and plots the results.",
+            "image": "images/programming/qc_client.png",
+            "link": "https://ajwestley.github.io/QC-Client/"
+        },
+        {
+            "title": "QAOA Max-Cut",
+            "description": "A Quantum algorithm that can find an approximate solution to the Max-Cut problem.",
+            "image": "images/programming/4NodeGraph.png",
+            "link": "https://github.com/AJWestley/QAOA-MaxCut"
+        },
+        {
+            "title": "Quantum Circuit Simulator",
+            "description": "A Python module that simulates quantum circuits. Gates are applied to qubits using function chaining.",
+            "image": "images/programming/BlochSphere.png",
+            "link": "https://github.com/AJWestley/Quantum-Circuit-Simulator"
+        },
+        {
             "title": "Neural Network By Hand",
             "description": "A feed-forward neural network I made from scratch using only Numpy.",
             "image": "images/programming/annFromScratch.png",
             "link": "https://github.com/AJWestley/Neural-Network-By-Hand"
+        },
+        {
+            "title": "Number Classifier",
+            "description": "A drawing pad app that tries to guess which number you drew. The underlying classifier makes use of a pretrained Convolutional Neural Network.",
+            "image": "images/programming/NumClassifier.webp",
+            "link": "https://github.com/AJWestley/Number-Classifier"
+        },
+        {
+            "title": "Ideal and Non-Ideal Gas Simulation",
+            "description": "A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. For collision detection, I made use of a spatial hash map, which allows the program to handle upwards of 2500 particles without any significant performance drop.",
+            "image": "images/programming/GasSim.png",
+            "link": "https://github.com/AJWestley/Gas-Sim"
         },
         {
             "title": "ScrollScript",
@@ -20,52 +62,10 @@
             "link": "https://github.com/AJWestley/DuckTop"
         },
         {
-            "title": "QAOA Max-Cut",
-            "description": "A Quantum algorithm that can find an approximate solution to the Max-Cut problem.",
-            "image": "images/programming/4NodeGraph.png",
-            "link": "https://github.com/AJWestley/QAOA-MaxCut"
-        },
-        {
-            "title": "Number Classifier",
-            "description": "A drawing pad app that tries to guess which number you drew. The underlying classifier makes use of a pretrained Convolutional Neural Network.",
-            "image": "images/programming/NumClassifier.webp",
-            "link": "https://github.com/AJWestley/Number-Classifier"
-        },
-        {
-            "title": "Qubit Simulator",
-            "description": "An object-class which imitates the behaviour of a qubit, with all the typical single-qubit gates..",
-            "image": "images/programming/BlochSphere.png",
-            "link": "https://github.com/AJWestley/Qubit-Sim"
-        },
-        {
-            "title": "Fourier Transforms in C++",
-            "description": "A C++ library with an FFT algorithm and a few useful applied FFT methods.",
-            "image": "images/programming/fourier.png",
-            "link": "https://github.com/AJWestley/Fourier-Transforms"
-        },
-        {
-            "title": "Ideal and Non-Ideal Gas Simulation",
-            "description": "A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. For collision detection, I made use of a spatial hash map, which allows the program to handle upwards of 2500 particles without any significant performance drop.",
-            "image": "images/programming/GasSim.png",
-            "link": "https://github.com/AJWestley/Gas-Sim"
-        },
-        {
-            "title": "Random Variable Distributions in C",
-            "description": "A C library for generating Random Variables according to a few common probability distributions. Also contains a Python wrapper for the library.",
-            "image": "images/programming/probability-dist.png",
-            "link": "https://github.com/AJWestley/Probability-Distributions"
-        },
-        {
             "title": "Mushroom Mosaic",
             "description": "A Python program that can recreates images as a mosaic of mushrooms.",
             "image": "images/programming/mushroomMosaic.png",
             "link": "https://github.com/AJWestley/Mushroom-Mosaic"
-        },
-        {
-            "title": "C Base Layer",
-            "description": "Some basic C utilities including data structures, algorithms and various math structures such as vectors, matrices and useful mathematical algorithms.",
-            "image": "images/programming/CLogo.png",
-            "link": "https://github.com/AJWestley/C-Base-Code"
         },
         {
             "title": "Prolog Predicates",
@@ -74,22 +74,28 @@
             "link": "https://github.com/AJWestley/Predicates"
         },
         {
+            "title": "Fourier Transforms in C++",
+            "description": "A C++ library with an FFT algorithm and a few useful applied FFT methods.",
+            "image": "images/programming/fourier.png",
+            "link": "https://github.com/AJWestley/Fourier-Transforms"
+        },
+        {
+            "title": "Random Variable Distributions in C",
+            "description": "A C library for generating Random Variables according to a few common probability distributions. Also contains a Python wrapper for the library.",
+            "image": "images/programming/probability-dist.png",
+            "link": "https://github.com/AJWestley/Probability-Distributions"
+        },
+        {
+            "title": "C Base Layer",
+            "description": "Some basic C utilities including data structures, algorithms and various math structures such as vectors, matrices and useful mathematical algorithms.",
+            "image": "images/programming/CLogo.png",
+            "link": "https://github.com/AJWestley/C-Base-Code"
+        },
+        {
             "title": "ASCII Art Generator",
             "description": "A GUI and terminal program which can create an ASCII artwork from an image. The GUI is made using the tkinter module.",
             "image": "images/programming/ASCIIArt.png",
             "link": "https://github.com/AJWestley/ASCII-Art-Maker"
-        },
-        {
-            "title": "SimpleGPyT",
-            "description": "A Python package with a simplified object-oriented interface for OpenAI's chat completion API. Available on PYPI and can be installed with 'pip install simpleGPyT'.",
-            "image": "images/programming/simpleGPyT.png",
-            "link": "https://github.com/AJWestley/SimpleGPyT"
-        },
-        {
-            "title": "Gravity Simulation",
-            "description": "A simple Newtonian gravity simulation written in Python which uses point masses to approximate different gravitational interactions. There are a few prebuilt systems in the code, such as our solar system and a binary star system with circumbinary planets.",
-            "image": "images/programming/gravity.png",
-            "link": "https://github.com/AJWestley/Gravity-Planetary-Orbit-Sim"
         },
         {
             "title": "Wordle Clone",
