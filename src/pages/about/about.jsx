@@ -45,7 +45,7 @@ function AboutContent() {
                 <div className="accordion-content">
                     <p>
                         At my core, I am passionate about machine learning and AI, physics (mostly astronomy), writing, and music. 
-                        I have aspirations to get a masters degree in Artificial Intelligence, then hopefully go further and study a PhD.
+                        I have aspirations to get a masters degree in Artificial Intelligence or Astronomy (or a blend of the two), then hopefully go further and study a PhD.
                         The part of university I enjoyed the most was my final-year research project, so academia feels like the right place for me.
                         <br/>
                     </p>
