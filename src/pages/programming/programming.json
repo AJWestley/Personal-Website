@@ -32,24 +32,6 @@
             "link": "https://github.com/AJWestley/Quantum-Circuit-Simulator"
         },
         {
-            "title": "Neural Network By Hand",
-            "description": "A feed-forward neural network I made from scratch using only Numpy.",
-            "image": "images/programming/annFromScratch.png",
-            "link": "https://github.com/AJWestley/Neural-Network-By-Hand"
-        },
-        {
-            "title": "Number Classifier",
-            "description": "A drawing pad app that tries to guess which number you drew. The underlying classifier makes use of a pretrained Convolutional Neural Network.",
-            "image": "images/programming/NumClassifier.webp",
-            "link": "https://github.com/AJWestley/Number-Classifier"
-        },
-        {
-            "title": "Ideal and Non-Ideal Gas Simulation",
-            "description": "A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. For collision detection, I made use of a spatial hash map, which allows the program to handle upwards of 2500 particles without any significant performance drop.",
-            "image": "images/programming/GasSim.png",
-            "link": "https://github.com/AJWestley/Gas-Sim"
-        },
-        {
             "title": "ScrollScript",
             "description": "A magic-themed, interpreted programming language.",
             "image": "images/programming/ScrollScript.png",
@@ -66,6 +48,30 @@
             "description": "A Python program that can recreates images as a mosaic of mushrooms.",
             "image": "images/programming/mushroomMosaic.png",
             "link": "https://github.com/AJWestley/Mushroom-Mosaic"
+        },
+        {
+            "title": "Neural Network By Hand",
+            "description": "A feed-forward neural network I made from scratch using only Numpy.",
+            "image": "images/programming/annFromScratch.png",
+            "link": "https://github.com/AJWestley/Neural-Network-By-Hand"
+        },
+        {
+            "title": "Number Classifier",
+            "description": "A drawing pad app that tries to guess which number you drew. The underlying classifier makes use of a pretrained Convolutional Neural Network.",
+            "image": "images/programming/NumClassifier.webp",
+            "link": "https://github.com/AJWestley/Raindrop-Finder"
+        },
+        {
+            "title": "Raindrop Counter",
+            "description": "A program that will highlight and count the raindrops in any images of raindrops on a window.",
+            "image": "images/programming/RaindropFinder.PNG",
+            "link": "https://github.com/AJWestley/Number-Classifier"
+        },
+        {
+            "title": "Ideal and Non-Ideal Gas Simulation",
+            "description": "A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. For collision detection, I made use of a spatial hash map, which allows the program to handle upwards of 2500 particles without any significant performance drop.",
+            "image": "images/programming/GasSim.png",
+            "link": "https://github.com/AJWestley/Gas-Sim"
         },
         {
             "title": "Prolog Predicates",
@@ -93,13 +99,13 @@
         },
         {
             "title": "ASCII Art Generator",
-            "description": "A GUI and terminal program which can create an ASCII artwork from an image. The GUI is made using the tkinter module.",
+            "description": "A GUI and terminal program which can create an ASCII artwork from an image. The GUI is made using tkinter.",
             "image": "images/programming/ASCIIArt.png",
             "link": "https://github.com/AJWestley/ASCII-Art-Maker"
         },
         {
             "title": "Wordle Clone",
-            "description": "A clone of Wordle, written in Python using the pygame module.",
+            "description": "A clone of Wordle, written in Python using pygame.",
             "image": "images/programming/wordle.png",
             "link": "https://github.com/AJWestley/Wordle_Clone"
         }
