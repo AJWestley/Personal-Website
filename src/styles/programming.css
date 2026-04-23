@@ -87,7 +87,8 @@
 }
 
 .main__img--container img {
-    width: 20rem;
+    max-width: 20rem;
+    min-width: 20rem;
     background: #140c3d;
     border-color: #eee;
     border-style: solid;
@@ -126,6 +127,7 @@
 
     .main__img--container img {
         max-width: 15rem;
+        min-width: 15rem;
     }
 }
 
