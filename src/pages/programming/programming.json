@@ -2,6 +2,12 @@
     "title": "Creative Writing (Technically)",
     "programming_cards": [
         {
+            "title": "GalaxyZoo Image Generator",
+            "description": "A model that can generate GalaxyZoo-like galaxy images.",
+            "image": "images/programming/galaxyzoo.png",
+            "link": "https://github.com/AJWestley/GalaxyZoo-Image-Generator"
+        },
+        {
             "title": "Galaxy Spin Mapping",
             "description": "A Python module that can be used to calculate the redshift of MaNGA galaxy pixels by fitting well-known emission lines. I use this to construct a rotation map of two example galaxies, as well as calculate their total redshift to 1% accuracy.",
             "image": "images/programming/redshift.png",
