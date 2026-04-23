@@ -127,7 +127,7 @@
 
     .main__img--container img {
         max-width: 15rem;
-        min-width: 15rem;
+        min-width: 10rem;
     }
 }
 
