@@ -87,7 +87,7 @@
 }
 
 .main__img--container img {
-    max-width: 20rem;
+    width: 20rem;
     background: #140c3d;
     border-color: #eee;
     border-style: solid;
