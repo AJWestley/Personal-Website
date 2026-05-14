@@ -14,6 +14,12 @@
             "link": "https://github.com/AJWestley/Galaxy-Redshift"
         },
         {
+            "title": "Radio Interferometer Simulator",
+            "description": "A RI simulator that can create dirty images from a given sky model and array configuration.",
+            "image": "images/programming/interferometry.png",
+            "link": "https://github.com/AJWestley/Interferometer-Simulator"
+        },
+        {
             "title": "Raspberry Pi Quantum Server",
             "description": "A server that can run OpenQASM quantum programs. It currently runs on my own Raspberry Pi.",
             "image": "images/programming/quantum_server.png",
@@ -74,16 +80,16 @@
             "link": "https://github.com/AJWestley/Number-Classifier"
         },
         {
-            "title": "Radio Interferometer Simulator",
-            "description": "A RI simulator that can create dirty images from a given sky model and array configuration.",
-            "image": "images/programming/interferometry.png",
-            "link": "https://github.com/AJWestley/Interferometer-Simulator"
-        },
-        {
             "title": "Ideal and Non-Ideal Gas Simulation",
             "description": "A simulation of ideal and non-ideal gasses in 2-dimensions as circles with elastic collisions. For collision detection, I made use of a spatial hash map, which allows the program to handle upwards of 2500 particles without any significant performance drop.",
             "image": "images/programming/GasSim.png",
             "link": "https://github.com/AJWestley/Gas-Sim"
+        },
+        {
+            "title": "Bibtex Style Linter",
+            "description": "My personal style linter for my bibtex files",
+            "image": "images/programming/bibtex.jpg",
+            "link": "https://github.com/AJWestley/BibStyle"
         },
         {
             "title": "Prolog Predicates",
